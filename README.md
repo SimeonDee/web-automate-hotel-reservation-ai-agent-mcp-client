@@ -33,11 +33,15 @@ $ uv pip install -r requirements.txt
 ```
 
 - To start the server FastAPI Server, run
-  - Start as a dev server
+
+  - As a DEV server with reload
+
   ```bash
   $ make run-server-dev
   ```
-  - Start as a dev server
+
+  - As a PROD server
+
   ```bash
   $ make run-server-prod
   ```
