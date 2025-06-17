@@ -1,0 +1,8 @@
+ddg-mcp
+duckduckgo-search
+mcp-use
+langchain-openai
+langchain-anthropic
+python-dotenv
+fastapi
+uvicorn

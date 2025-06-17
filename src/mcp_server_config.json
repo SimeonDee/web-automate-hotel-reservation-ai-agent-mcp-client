@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"]
+    },
+    "ddg-mcp": { 
+        "command": "uv",
+        "args": [
+            "--directory",
+            ".venv/lib/python3.12/site-packages/ddg_mcp",
+            "run",
+            "ddg-mcp"
+        ] 
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    }
+  }
+}
